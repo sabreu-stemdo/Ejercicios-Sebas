@@ -1,13 +1,57 @@
-site_name: "Mis Ejercicios"
+site_name: "FP - Dual"
+
 theme:
-  name: 'material'
+  # name: "cinder"
+  name: "material"
+  # name: "bootstrap"
+  # name: "readthedocs"
+  logo: "assets/stemdoLOGO.png"
+  favicon: "assets/favicon.ico"
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: amber
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light blue
+  font:
+    text: "Roboto"
+    code: "Fira Code"
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking # Activa Breadcrumbs
+    - content.code.copy
+    - search.share
+    - search.highlight
+
 
 nav:
   - Inicio: index.md
-  - Ejercicios:
-      - Tema 1:
-          - Ejercicio 1: carpeta1/ejercicio1.md
-          - Ejercicio 2: carpeta1/ejercicio2.md
-      - Tema 2:
-          - Ejercicio 1: carpeta2/ejercicio1.md
-          - Ejercicio 2: carpeta2/ejercicio2.md
+
+  - ASIR:
+      - Enunciados:
+          - 1.- Instalación de OS: "asir-enunciados/1-instalacion_sistemas.md"
+          - 1.5 Introducción Linux: "asir-enunciados/1.5-introduccion_linux.md"
+          - 3.- Administración Windows: "asir-enunciados/3-administracion_windows.md"
+          - 4.- Administración Linux: "asir-enunciados/4-administracion_linux.md"
+          - 4.5 - Escritorio Remoto: "asir-enunciados/4.5-escritorio_remoto.md"
+          - 5.- Administración AD: "asir-enunciados/5-administracion_ad.md"
+          - 6.- Administración Docker: "asir-enunciados/6-administracion_docker.md"
+
+      - Soluciones: 
+          - 1.- Instalación de OS: "asir-soluciones/1-instalacion_sistemas.md"
+          - 3.- Administración Windows: "asir-soluciones/3-administracion_windows.md"
+          - 4.- Administración Linux: "asir-soluciones/4-administracion_linux.md"
+          - 4.5 - Escritorio Remoto: "asir-soluciones/4.5-escritorio_remoto.md"
+          - 5.- Administración AD: "asir-soluciones/5-administracion_ad.md"
+          - 6.- Administración Docker: "asir-soluciones/6-administracion_docker.md"
+
+  - DAM:
+    - Enunciados:
+          - 2.- Servidor Web Apache: "asir-enunciados/2-configuracion_servidores.md"
+    - Soluciones:
+          - 2.- Servidor Web Apache: "asir-soluciones/2-configuracion_servidores.md"

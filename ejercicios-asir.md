@@ -79,7 +79,7 @@ Uptime –s
 
 ### 1. Monta un servidor web Apache, carga un fichero `index.html` y comprueba que funciona correctamente en tu navegador.  
 
-### Pasos:  
+ 
 
 1. **Instalar Apache**  
 ```bash
@@ -111,7 +111,7 @@ sudo systemctl status apache2
 ## 1. Crea un cmdlet de PowerShell llamado saludo1.ps1 
 Define dos variables: `$nombre` y `$saludo`. Luego, muestra un mensaje en la consola con el saludo y el nombre.  
 
-### Código:  
+ 
 ```powershell
 # saludo1.ps1
 # Definir las variables
@@ -268,7 +268,7 @@ El script debe:
 - Evitar divisiones por cero.  
 - Validar que el número de argumentos es 3.  
 
-### Código:  
+ 
 ```bash
 #!/bin/bash
 
@@ -311,7 +311,7 @@ El script debe:
 - Verificar si el fichero existe y mostrar sus permisos.
 - Permitir al usuario ingresar 5 nombres y apellidos, eliminando espacios intermedios.
 
-### Código: 
+
 ```bash
 #!/bin/bash
 
@@ -351,7 +351,7 @@ El script debe:
 - Permitir al usuario buscar un nombre en un fichero.
 - Guardar la consulta con fecha y hora en un fichero general.
 
-### Código: 
+
 ```bash
 
 #!/bin/bash
@@ -395,7 +395,7 @@ El script debe:
 - Crear un directorio Consultas y dentro subdirectorios por fecha.
 - Guardar cada consulta en un archivo separado con el nombre del usuario buscado.
 
-### Código: 
+
 ```bash
 #!/bin/bash
 
@@ -487,7 +487,7 @@ El cliente se conectará a través de la red a una máquina con Windows que tien
 
 ## 5. Conectar a una máquina Ubuntu Desktop mediante SSH con MOBAXterm  
 
-### Pasos:  
+ 
 
 1. **Descargar e instalar MOBAXterm**  
    - Puedes descargarlo desde su sitio web oficial: [MOBAXterm](https://mobaxterm.mobatek.net/)  
@@ -511,7 +511,7 @@ Se ha decidido crear el **AD DS de la FIFA-2018**, donde:
 - Cada **club** será un grupo en Active Directory.  
 - Se utilizará **PowerShell** para importar los usuarios desde un archivo CSV y asignarlos a sus respectivos grupos.  
 
-### Código:  
+ 
 ```powershell
 Import-Module ActiveDirectory
 
@@ -553,7 +553,7 @@ foreach ($jugador in $jugadores) {
 - Seis réplicas distribuidas en todo el clúster.  
 - Solo se detendrá en caso de fallo y esperará 10 segundos antes de reiniciar.  
 
-### Código:  
+ 
 ```yaml
 version: '3.8'
 services:
@@ -587,7 +587,7 @@ networks:
 docker build -t miotra:latest .
 ```
 
-### Código:  
+ 
 ```yaml
 version: '3.8'
 services:
@@ -622,7 +622,7 @@ networks:
 - 20 réplicas con un máximo de 5 por nodo.
 - Health check cada minuto, con 3 intentos y un inicio tras 20 segundos
 
-### Código:  
+ 
 ```yaml
 version: '3.8'
 services:
@@ -665,7 +665,7 @@ networks:
 - 10 réplicas con máximo 2 por nodo.
 
 
-### Código:  
+ 
 ```yaml
 version: '3.8'
 services:
@@ -704,7 +704,7 @@ networks:
 - El tiempo máximo de espera para considerar un fallo es de 30s.
 
 
-### Código:  
+ 
 ```yaml
 version: '3.8'
 services:
