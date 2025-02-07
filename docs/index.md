@@ -17,7 +17,7 @@ Ejercicios prácticos sobre la instalación y configuración de sistemas operati
 - Instalación de **Ubuntu Server, Ubuntu Desktop y Windows Server**  
 - Configuración inicial de entornos virtualizados  
 
-📄 **[Ejercicios de instalación de sistemas operativos](asir-enunciados\1-instalacion_sistemas.md)**
+📄 **[Ejercicios de instalación de sistemas operativos](asir-enunciados/1-instalacion_sistemas.md.md)**
 
 ---
 
@@ -29,7 +29,7 @@ Ejercicios de administración y monitorización de sistemas Linux.
 - Jerarquía de procesos (`pstree`)  
 - Control de recursos y análisis del sistema  
 
-📄 **[Ejercicios de administración Linux](asir-enunciados\2-configuracion_servidores.md)**
+📄 **[Ejercicios de administración Linux](asir-enunciados/2-configuracion_servidores.md)**
 
 ---
 
@@ -41,7 +41,7 @@ Ejercicios de administración de sistemas Windows con **PowerShell**, permitiend
 - Variables, parámetros y entrada del usuario  
 - Operaciones aritméticas y control de flujo  
 
-📄 **[Ejercicios de administración Windows](asir-enunciados\3-administracion_windows.md)**
+📄 **[Ejercicios de administración Windows](asir-enunciados/3-administracion_windows.md)**
 
 ---
 
@@ -53,7 +53,7 @@ Configuración de servidores web, escritorios remotos y conexiones SSH.
 - Escritorio remoto con **Terminal Server (RDP y XRDP)**  
 - Acceso remoto con **MOBAXterm y SSH**  
 
-📄 **[Ejercicios de configuración de servidores](asir-enunciados\4-administracion_linux.md)**   
+📄 **[Ejercicios de configuración de servidores](asir-enunciados/4-administracion_linux.md)**   
 
 ---
 
@@ -65,7 +65,7 @@ Ejercicios sobre la automatización de **Active Directory**, creación de usuari
 - Gestión de **grupos y unidades organizativas (OU)**  
 - Administración y control de accesos en AD  
 
-📄 **[Ejercicios de Active Directory](asir-enunciados\5-administracion_ad.md)**
+📄 **[Ejercicios de Active Directory](asir-enunciados/5-administracion_ad.md)**
 
 ---
 
@@ -77,5 +77,5 @@ Ejercicios de despliegue y administración de contenedores en **Docker Swarm**.
 - Despliegue de aplicaciones con múltiples réplicas  
 - **Limitaciones de CPU y memoria**, volúmenes y secretos  
 
-📄 **[Ejercicios de Docker](asir-enunciados\6-administracion_docker.md)**
+📄 **[Ejercicios de Docker](asir-enunciados/6-administracion_docker.md)**
 
