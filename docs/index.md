@@ -17,7 +17,7 @@ Ejercicios prácticos sobre la instalación y configuración de sistemas operati
 - Instalación de **Ubuntu Server, Ubuntu Desktop y Windows Server**  
 - Configuración inicial de entornos virtualizados  
 
-📄 **[Ejercicios de instalación de sistemas operativos](asir-enunciados/1-instalacion_sistemas.md.md)**
+📄 **[Ejercicios de instalación de sistemas operativos](asir-enunciados/1-instalacion_sistemas.md)**
 
 ---
 
