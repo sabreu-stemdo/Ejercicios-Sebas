@@ -1,0 +1,13 @@
+site_name: "Mis Ejercicios"
+theme:
+  name: 'material'
+
+nav:
+  - Inicio: index.md
+  - Ejercicios:
+      - Tema 1:
+          - Ejercicio 1: carpeta1/ejercicio1.md
+          - Ejercicio 2: carpeta1/ejercicio2.md
+      - Tema 2:
+          - Ejercicio 1: carpeta2/ejercicio1.md
+          - Ejercicio 2: carpeta2/ejercicio2.md
