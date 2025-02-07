@@ -1,5 +1,5 @@
 site_name: "FP - Dual"
-
+site_url: "https://fpdual.codeops.es/"
 theme:
   # name: "cinder"
   name: "material"
