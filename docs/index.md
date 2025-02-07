@@ -1,5 +1,5 @@
-# Índice de Ejercicios - ASIR FP Dual  
-Lio por sebas
+# Índice de Ejercicios - ASIR FP
+
 ## 📌 Introducción  
 Bienvenido/a a este conjunto de ejercicios diseñados para la **FP Dual de ASIR**. Aquí encontrarás prácticas sobre diversos temas clave en la administración de sistemas y redes.  
 
